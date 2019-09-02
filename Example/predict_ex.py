@@ -62,7 +62,7 @@ def error_part(NowTime, partno, fn, resultt, deviceid) :
     
     payload = '............'
     output_str = deviceid + partno.replace('-','') + '-' + str(payload) + '-' + flow 
-    ouput_topic = 'Mitac/Edge/error/' + fn
+    ouput_topic = 'MQTT/feedback/Ans/' + fn
     mqtt_publish(ouput_topic , output_str)
 
 

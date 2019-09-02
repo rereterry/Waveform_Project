@@ -65,7 +65,7 @@ def mqtt_main() :
     # 猜測可否同一管道也就是同一ip
     IP = "10.32.3.200"
     client.connect(IP, 1883)
-    client.subscribe('Mitac/edge/+', qos=0)
+    client.subscribe('MQTT/Edge/+', qos=0)
     # client.subscribe('nafco_json',qos=0)
     client.subscribe('Nafco/feedbackToEdge', qos=0)
     # client.loop_start()
