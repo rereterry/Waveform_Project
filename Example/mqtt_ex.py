@@ -63,7 +63,7 @@ def mqtt_main() :
     client.on_connect = on_connect
     client.on_message = on_message
     # 猜測可否同一管道也就是同一ip
-    IP = "10.32.3.200"
+    IP = "xx.xx.xx.xxx"
     client.connect(IP, 1883)
     client.subscribe('MQTT/Edge/+', qos=0)
     # client.subscribe('nafco_json',qos=0)
