@@ -1,5 +1,5 @@
 # Waveform_Project
-This project is a simple example to use node-red, mqtt, to present Remote transmission of messageswant and predict whether the new waveform is match normal situation. 
+This project is a simple example to use node-red, mqtt, to present Remote transmission of messageswant and predict whether the new waveform is match normal situation. The predict method is anormaly detection by Autoencoder.
 Mutilpe model and Mutilpe input waveform can use
 # Environment
 Python 3.6.1
